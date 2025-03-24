@@ -1,0 +1,8 @@
+*.vsix
+.DS_Store
+.gitignore
+/.github/
+/.vscode-test/
+/.vscode/
+/node_modules/
+jsconfig.json
