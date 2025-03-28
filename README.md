@@ -15,7 +15,13 @@ The **TangoMan vscode-command-cycle** extension for _Visual Studio Code_ enables
 
 ### Step 1: Install the Extension
 
-Install the extension directly from the Visual Studio Code marketplace or via the command line:
+Launch _VSCode Quick Open_ (`Ctrl+P`), paste the following command, and press `Enter`.
+
+```
+ext install TangoMan75.command-cycle
+```
+
+Or install the extension via the command line:
 
 ```bash
 code --install-extension TangoMan75.command-cycle
@@ -23,16 +29,17 @@ code --install-extension TangoMan75.command-cycle
 
 Or install the `.vsix` package manually:
 
-1. Open the Extensions View in VSCOde.
-2. Click on the Extensions icon in the Activity Bar.
-3. Click on the three dots icon in the top right corner.
-4. From the dropdown menu that appears, select "Install from VSIX...".
+1. Download the source code.
+2. Open the _Extensions View_ in _VSCode_.
+3. Click on the Extensions icon in the _Activity Bar_.
+4. Click on the three-dot icon (`...`) in the top-right corner.
+5. From the dropdown menu that appears, select "`Install from VSIX...`".
 
 ### Step 2: Configure Keybindings
 
-Edit your VSCode keybindings configuration in `keybindings.json` file to define the commands to cycle.
+Edit your _VSCode_ keybindings configuration in the `keybindings.json` file to define the commands to cycle through.
 
-For example, while using `wmaurer.change-case` extension you can cycle through various text case transformations (e.g., sentence case, title case, camelCase, etc.) by pressing `ctrl+k ctrl+t` repeatedly.
+For example, while using the `wmaurer.change-case` extension, you can cycle through various text case transformations (e.g., sentence case, title case, camelCase, etc.) by pressing `Ctrl+K Ctrl+T` repeatedly.
 
 ```json
 {
@@ -50,12 +57,14 @@ For example, while using `wmaurer.change-case` extension you can cycle through v
 },
 ```
 
+![Loop through case example](./images/vscode-command-cycle.gif)
+
 Replace the commands in the `commands` array with the ones you want to cycle through.
 
 🔥 Usage
 --------
 
-1. Press the keybinding you configured (e.g., `ctrl+k ctrl+t`).
+1. Press the keybinding you configured (e.g., `Ctrl+K Ctrl+T`).
 2. The extension will execute the commands in the order specified in the `commands` array.
 3. Each subsequent key press will execute the next command in the cycle.
 
@@ -70,22 +79,22 @@ Replace the commands in the `commands` array with the ones you want to cycle thr
 
 Thank you for your interest in contributing to **TangoMan vscode-command-cycle**.
 
-Please review the [code of conduct](https://github.com/TangoMan75/vscode-command-cycle/blob/master/CODE_OF_CONDUCT.md) and [contribution guidelines](https://github.com/TangoMan75/vscode-command-cycle/blob/master/CONTRIBUTION.md) before starting to work on any features.
+Please review the [Code of Conduct](https://github.com/TangoMan75/vscode-command-cycle/blob/master/CODE_OF_CONDUCT.md) and [Contribution Guidelines](https://github.com/TangoMan75/vscode-command-cycle/blob/master/CONTRIBUTION.md) before starting to work on any features.
 
-If you want to open an issue, please check first if it was not [reported already](https://github.com/TangoMan75/vscode-command-cycle/issues) before creating a new one.
+If you want to open an issue, please check first if it has not been [reported already](https://github.com/TangoMan75/vscode-command-cycle/issues) before creating a new one.
 
 📜 License
 ----------
 
-Copyrights (c) 2025 &quot;Matthias Morin&quot; &lt;mat@tangoman.io&gt;
+Copyright (c) 2025 "Matthias Morin" &lt;mat@tangoman.io&gt;
 
-[![License](https://img.shields.io/badge/Licence-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/Licence-MIT-green.svg)](LICENSE)  
 Distributed under the MIT license.
 
-If you like **TangoMan vscode-command-cycle** please star, follow or tweet:
+If you like **TangoMan vscode-command-cycle**, please star, follow, or tweet:
 
-[![GitHub stars](https://img.shields.io/github/stars/TangoMan75/vscode-command-cycle?style=social)](https://github.com/TangoMan75/vscode-command-cycle/stargazers)
-[![GitHub followers](https://img.shields.io/github/followers/TangoMan75?style=social)](https://github.com/TangoMan75)
+[![GitHub stars](https://img.shields.io/github/stars/TangoMan75/vscode-command-cycle?style=social)](https://github.com/TangoMan75/vscode-command-cycle/stargazers)  
+[![GitHub followers](https://img.shields.io/github/followers/TangoMan75?style=social)](https://github.com/TangoMan75)  
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FTangoMan75%2Fvscode-command-cycle)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTangoMan75%2Fvscode-command-cycle)
 
-... And check my other cool projects.
+... And check out my other cool projects.

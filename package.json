@@ -2,7 +2,7 @@
   "name": "command-cycle",
   "displayName": "Command Cycle",
   "description": "Loop through the repeated execution of a user-defined sequence of commands with every press of the same keybinding",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "TangoMan75",
   "license": "MIT",
   "repository": {
