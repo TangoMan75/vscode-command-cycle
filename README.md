@@ -98,3 +98,14 @@ If you like **TangoMan vscode-command-cycle**, please star, follow, or tweet:
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FTangoMan75%2Fvscode-command-cycle)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTangoMan75%2Fvscode-command-cycle)
 
 ... And check out my other cool projects.
+
+👋 Let's Build Your Next Project Together !
+-------------------------------------------
+
+Looking for an experienced Full-Stack Partner ?
+
+Clean code. Clear communication.
+
+From first sketch to final launch, I've got your back.
+
+[![tangoman.io](https://img.shields.io/badge/✉️%20Get%20in%20touch%20now%20!-FD9400?style=for-the-badge)](https://tangoman.io)
